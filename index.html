@@ -1,0 +1,244 @@
+
+<!-- index.html of the portfolio website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="STYLE.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav> 
+        <div class="logo" class="reveal">
+
+            <a href="#" style="text-decoration: none;font-weight: 600;"><img width="74%" src="logo2.gif"> </a> </div>
+      
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a> </li>
+            <li><a href="#about">About</a> </li>
+            <li><a href="#services">Service</a> </li>
+            <li><a href="#portfolio">Portfolio</a> </li>
+            <li><a href="#contact">Contacts</a> </li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            <!-- this cross icon is called times -->
+        </ul>
+
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        <!-- its a menu icon in which we have given a function that will work accordingly  -->
+    </nav>
+   
+    <div class="header-text">
+        <p>Web Developer</p>
+        <p>& Designer</p>
+        <h1>Hi, I'm <span> Nisha Shabbir Anjum </span> <br>from Pakistan</h1>
+      
+        </div>
+    </div>
+
+</div>
+                  <!--  about ME -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://st.depositphotos.com/1011643/1248/i/450/depositphotos_12485614-stock-photo-asian-businesswoman-with-tablet-computer.jpg" alt="loading" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur unde minus nostrum! Perferendis, amet voluptates aut ducimus, excepturi distinctio ex est sunt recusandae asperiores obcaecati, cum laudantium! Omnis quibusdam in voluptates quos qui corporis culpa consectetur reiciendis optio consequuntur suscipit tempora dolor fugit, veniam inventore minus eius amet, totam exercitationem nostrum iste, rerum esse. Voluptate suscipit atque officiis ipsum?</p>
+                <div class="tab-title">
+                    <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <!-- this list basically contains skills  -->
+                        <li><span>UI?UX</span><br>Developing web interfaces</li>
+                        <li><span>Designer</span><br>Designing Web pges</li>
+                        <li><span>Builder</span><br>Building Amazing websites of all formates</li>
+                        <li><span>Expertise</span><br>Frontend and backend</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-content" id="Experience">
+                    <ul>
+                        <!-- this list basically contains skills  -->
+                        <li><span>2024</span><br>Training at Corvit College BWP</li>
+                        <li><span>2024</span><br>Team lead at LMN</li>
+                        <li><span>2025</span><br>Internship at XYZ</li>
+      </ul>
+                </div>
+                <div class="tab-content " id="Education">
+                    <ul>
+                        <!-- this list basically contains skills  -->
+                        <li><span>2021</span><br>Matric</li>
+                        <li><span>2023</span><br>INTERMEDIATE</li>
+                        <li><span>2024</span><br>BACHELOR</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div id="services">
+    <div class="container"> 
+        <h1 class="sub-title"> My services </h1>
+            <div class="services-list">
+                <h2>Web develop</h2>
+                <a href="#"> Learn more</a><br>
+                <h2>Web design</h2>
+                <a href="#"> Learn more</a><br>
+                <h2> Programming </h2>
+                <a href="#"> Learn more</a><br>
+                <h2> Blogging </h2>
+                <a href="#"> Learn more</a><br>
+            </div>
+           
+               
+    </div>
+</div>
+      <!--My work portfolio -->
+      
+      <div id="portfolio">
+        <div class="container">
+            <!-- <h1 class="sub-titles"> My work</h1> -->
+           
+            
+
+
+
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://t3.ftcdn.net/jpg/02/14/53/92/360_F_214539232_YnUrtuwUEt84gHuU0qG8l7OwZvH4rnPG.jpg">
+                    <!-- yahan koi work k related 3 image paste krni hai -->
+                    <div class="layer">
+                        <h3>Nisha</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae repellendus nam impedit omnis optio eveniet odit repudiandae ad consequatur!</p>
+                    <!-- <a href="#"> anyicon</a> yahan icons lgany hain anchor tag k ander or un k border ko radius de k round kr dena hai -->
+                <!-- or ye anchor tags 3no divs k ander different lgany hain      -->
+                </div>
+                  
+                </div>
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOiBSrY3rPB6EYrh3FaDqXejdrHY_MZKMmPIJ0IKPsuyaIWBZdqJkJItFZ9ndL3i6HTBI&usqp=CAU">
+                    <div class="layer">
+                        <h3>Nisha</h3>
+                       
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae repellendus nam impedit omnis optio eveniet odit repudiandae ad consequatur!</p>
+                    
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi-838ObC7aOQ2ox_5mcjA1QCTf7Ml5LT3LQ&s">
+                    <div class="layer">
+                        <h3>Nisha</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa molestiae repellendus nam impedit omnis optio eveniet odit repudiandae ad consequatur!</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+           <!-- contact  -->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fas fa-paper-plane"></i> contactexample email@.com</p>
+                        <p> <i class="fas fa-phone-square-alt"></i> +92327</p>
+                        <div class="social-icons">
+                            <!-- here you will add all your social icons  -->
+                            <a href="https://facebook.com/" > <i class="fab fa-facebook" style="color: rgb(6, 158, 158);" ></i> </a>
+                            <a href="#" > <i class="fab fa-twitter-square" style="color: palevioletred;"></i> </a>
+                            <a href="#" > <i class=" fab fa-instagram" style="color: red;"></i> </a>
+                            <a href="#" > <i class="fab fa-linkedin" style="color: blue;"></i> </a>
+                        <!-- and also add here a github account  -->
+
+                        </div>
+                        <a href="" download class="btn btn2"> Download my CV</a>
+                        <!-- when you click on it it starts downloading the cv   -->
+                    </div>
+                    <!-- aik div k ander form ko bnaya hai  -->
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="your name" required>
+                            <input type="email" name="email" placeholder="your email" required>
+                  <textarea name="message" rows="6" placeholder="your message"></textarea>   
+              <button type="submit" class="btn btn2">Submit</button>        
+
+                        </form>
+                        <span id="msg">Submit Form</span>
+                    </div>
+                </div>
+                <div class="copywrite">
+<p> copywrite @Anju . MAde with <i class="fas fa-heart"></i> by easy tutorial </p>
+
+
+                </div>
+            </div>
+           </div>
+           <!-- <div class="gif">
+            <img width="25%" src="animation1byphotoscape.gif">
+           </div> -->
+   <!-- here is the javascript -->
+<script>
+ var tablinks=document.getElementsByClassName("tab-links")
+ var tabcontents=document.getElementsByClassName("tab-content")
+ function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+ }
+
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        // by this function whenever you click on the menu it will  reveal smth to you 
+        sidemenu.style.right = "0";
+        // whenever the right will be zero it will be visible 
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby0RfuIvZATU3zoxDLh9vEH6SNqLO2ambtkdMiwOiwzU0TikzS6cviUhdDysfcGsmQu/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Submitted successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""   
+            },5000)
+            form.reset()
+        
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
